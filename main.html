@@ -1,0 +1,32 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Twitch Commands & Song Requests</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="dark">
+        <div id="tab">
+            <button class="active" id="commands">Commands</button>
+            <button id="songs">Song Queue</button>
+        </div>
+
+
+        <div id="list">
+            <h1 style="text-align: center; margin-bottom: 0;">Avaible Commands</h1>
+            <div id="search-contener">
+                <input type="text" id="search" placeholder="Search" aria-placeholder="Search" autocomplete="off">
+            </div>
+            <div class="cmd"></div>
+            <button class="refresh"><img height="24px" width="24px" src="media/refresh-white.svg"></button>
+        </div>
+        <div id="songsTab">
+            <h1 style="text-align: center; margin-bottom: 15px;">Song Queue</h1>
+            <div class="song"></div>
+            <button class="refresh"><img height="24px" width="24px" src="media/refresh-white.svg"></button>
+        </div>
+        
+        <script src="jQuery.js"></script>
+        <script src="main-min.js"></script>
+    </body>
+</html>

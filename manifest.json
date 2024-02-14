@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Commands & Song Requests",
+  "description": "Addon allowing you to simplify and sped up usage of Twitch chat commands",
+  "version": "1.0",
+  "icons": {
+    "128": "media/logo.png"
+  },
+  "permissions": ["activeTab", "tabs", "scripting", "storage", "declarativeContent"],
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "media/logo.png",
+    "default_title": "Twitch Commands & Song Requests"
+  },
+  "host_permissions": [
+    "https://www.twitch.tv/*"
+  ],
+  "content_scripts": [
+    {
+      "matches":["https://www.twitch.tv/*"],
+      "js":["jQuery.js", "main-min.js"]
+    }
+  ]
+}
