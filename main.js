@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',async function(){
+document.addEventListener('DOMContentLoaded',async ()=>{
 	//get current streamer name
 	const getStreamerName = () => {
 		return new Promise((resolve, reject) => {
