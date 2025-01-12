@@ -1,5 +1,6 @@
-# Twitch Commands
-## Addon providing easy access to all commands with one click of a mouse.
+### Twitch Commands
+Twitch Commands is an addon providing easy access to StreamElements & TTVUpdates commands with one click of a mouse.  
+The extension provides insight into what song is currently playing from chat song requests.
 
 ### Usage
 1. Download repository from [here](https://github.com/mikolaj-szubert/Twitch-Commands/releases/latest).
