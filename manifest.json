@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Twitch Commands & Song Requests",
   "description": "Addon allowing you to simplify and sped up usage of Twitch chat commands",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "128": "media/logo.png"
   },
